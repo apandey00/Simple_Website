@@ -1,0 +1,82 @@
+body{
+  margin:0;
+}
+
+nav {
+  /* margin: -1vh 0 0 -1vh; */
+  border-style: solid;
+  background-color: lightgray;
+  /* padding: 1.5vh 0 1.5vh 0; */
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 20vh; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  box-sizing:border-box;
+}
+
+header {
+  margin-top: 6vh;
+  /* margin-left: 0; */
+  position: relative;
+  width: 100%;
+  padding: 10vh 0 10vh 0;
+  /* border-style: solid; */
+  background: rgb(166,159,137);
+background: linear-gradient(180deg, rgba(166,159,137,1) 0%, rgba(255,245,173,1) 78%);
+box-sizing:border-box;
+}
+.fix-pic {
+  width: 33%;
+  height: auto;
+  position: relative;
+  background-color: antiquewhite;
+  /* z-index: 101; */
+  /* top: 50px; */
+}
+img{
+  /* border-style: solid; */
+  border-bottom: 0.1px;
+  border-style: solid;
+  padding: 4vh;
+}
+.test{
+  min-height: 200vh;
+  box-sizing:border-box;
+  background: rgb(186,213,213);
+background: linear-gradient(180deg, rgba(186,213,213,1) 0%, rgba(137,182,191,1) 76%);
+background-image: url("watercolour-1336856.jpg");
+background-position: center; 
+background-size: stretch;
+   border-style: solid;
+   border-color: red;
+   /* margin-top: 50px; */
+}
+.nav-block{
+ width: 33.3%;
+ border-style: solid;
+ text-align: center;
+ padding: 1.5vh 0 1.5vh 0;
+}
+
+.nav-button{
+  
+}
+
+footer {
+  border-style: solid;
+  background-color: lightgray;
+  padding: 10vh 0 10vh 0;
+  box-sizing:border-box;
+
+}
+
+.pic-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing:border-box;
+  justify-content: space-evenly;
+}
