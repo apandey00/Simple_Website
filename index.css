@@ -3,13 +3,10 @@ body{
 }
 
 nav {
-  /* margin: -1vh 0 0 -1vh; */
   border-style: solid;
   background-color: lightgray;
-  /* padding: 1.5vh 0 1.5vh 0; */
   display: flex;
   justify-content: space-around;
-  /* margin-top: 20vh; */
   position: fixed;
   width: 100%;
   top: 0;
@@ -17,48 +14,44 @@ nav {
   box-sizing:border-box;
 }
 
-header {
-  margin-top: 6vh;
-  /* margin-left: 0; */
-  position: relative;
-  width: 100%;
-  padding: 10vh 0 10vh 0;
-  /* border-style: solid; */
-  background: rgb(166,159,137);
-background: linear-gradient(180deg, rgba(166,159,137,1) 0%, rgba(255,245,173,1) 78%);
+.banner {
+margin-top: 5vmin;
+position: relative;
+width: 100%;
+height: 60vmin;
+background-image: url("camera-2598507.jpg");
+background-position: center; 
+background-size: cover;
+background-repeat: no-repeat;
 box-sizing:border-box;
 }
-.fix-pic {
+.pic {
   width: 33%;
   height: auto;
   position: relative;
   background-color: antiquewhite;
-  /* z-index: 101; */
-  /* top: 50px; */
+  margin-top: 1vmin;
 }
 img{
-  /* border-style: solid; */
-  border-bottom: 0.1px;
+  border-bottom: 3px;
   border-style: solid;
   padding: 4vh;
 }
-.test{
-  min-height: 200vh;
-  box-sizing:border-box;
-  background: rgb(186,213,213);
+.page{
+  min-height: 75vmin;
+box-sizing:border-box;
+background: rgb(186,213,213);
 background: linear-gradient(180deg, rgba(186,213,213,1) 0%, rgba(137,182,191,1) 76%);
 background-image: url("watercolour-1336856.jpg");
 background-position: center; 
 background-size: stretch;
-   border-style: solid;
-   border-color: red;
-   /* margin-top: 50px; */
+background-repeat: no-repeat;
 }
-.nav-block{
+a {
  width: 33.3%;
- border-style: solid;
+ border-style: solid; 
  text-align: center;
- padding: 1.5vh 0 1.5vh 0;
+ padding: 1.5vmin 0 1.5vmin 0;
 }
 
 .nav-button{
@@ -68,7 +61,7 @@ background-size: stretch;
 footer {
   border-style: solid;
   background-color: lightgray;
-  padding: 10vh 0 10vh 0;
+  height: 20vmin;
   box-sizing:border-box;
 
 }
@@ -80,3 +73,4 @@ footer {
   box-sizing:border-box;
   justify-content: space-evenly;
 }
+
